@@ -1,0 +1,322 @@
+
+body {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  background-color: #dc241c;
+}
+
+section {
+  display: block;
+  padding: 100px 0px 40px;
+}
+
+/* Footer */
+footer {
+  bottom: 0;
+  padding: 20px;
+  position: inherit;
+}
+
+.list-wrapper {
+  top: 0;
+}
+
+/* Breadcrumbs from http://bootsnipp.com/snippets/featured/triangle-breadcrumbs-arrows */
+.btn-breadcrumb .btn:not(:last-child):after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: 100%;
+  z-index: 3;
+}
+
+.btn-breadcrumb .btn:not(:last-child):before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid #adadad;
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+
+.btn-breadcrumb .btn {
+  padding: 6px 12px 6px 24px;
+}
+
+.btn-breadcrumb .btn:first-child {
+  padding: 6px 6px 6px 10px;
+}
+
+.btn-breadcrumb .btn:last-child {
+  padding: 6px 18px 6px 24px;
+}
+
+/** Default button **/
+.btn-breadcrumb .btn.btn-default:not(:last-child):after {
+  border-left: 10px solid #fff;
+}
+
+.btn-breadcrumb .btn.btn-default:not(:last-child):before {
+  border-left: 10px solid #ccc;
+}
+
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):after {
+  border-left: 10px solid #ebebeb;
+}
+
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):before {
+  border-left: 10px solid #adadad;
+}
+
+/* The responsive part */
+.btn-breadcrumb > * > div {
+  /* With less: .text-overflow(); */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-breadcrumb > *:nth-child(n+2) {
+  display: none;
+}
+
+/* === For phones =================================== */
+@media (max-width: 767px) {
+  .btn-breadcrumb > *:nth-last-child(-n+2) {
+    display: block;
+  }
+
+  .btn-breadcrumb > * div {
+    max-width: 60px;
+  }
+}
+/* === For tablets ================================== */
+@media (min-width: 768px) and (max-width: 991px) {
+  .btn-breadcrumb > *:nth-last-child(-n+4) {
+    display: block;
+  }
+
+  .btn-breadcrumb > * div {
+    max-width: 100px;
+  }
+}
+/* === For desktops ================================== */
+@media (min-width: 992px) {
+  .btn-breadcrumb > *:nth-last-child(-n+6) {
+    display: block;
+  }
+
+  .btn-breadcrumb > * div {
+    max-width: 170px;
+  }
+}
+/* ================  Cejowisz  Cejowisz  Cejowisz  Cejowisz starts here ================= */
+#admin-detail-page {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+#admin-detail-page a {
+  color: #fff;
+}
+#admin-detail-page .admin-detail-inner {
+  width: 100%;
+}
+#admin-detail-page .admin-detail-inner .row {
+  padding: 0;
+  margin: 0;
+}
+#admin-detail-page .admin-detail-inner .row .col-sm-2 {
+  padding: 0;
+}
+#admin-detail-page .admin-detail-inner .row .col-sm-10 {
+  padding: 0;
+}
+
+.remove-bottom-margin {
+  margin-bottom: 0;
+}
+
+.admin-left {
+  background: #dc241c;
+  min-height: 900px;
+}
+.admin-left h1 {
+  padding: 20px 20px 20px 30px;
+}
+.admin-left .admin-pix {
+  margin: 40px 0;
+}
+.admin-left .admin-pix img {
+  max-width: 120px;
+  margin: 0 auto;
+}
+.admin-left nav > ul {
+  text-align: right;
+  padding-right: 50px;
+}
+.admin-left .app-name {
+  margin: 0;
+}
+.admin-left .app-name a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.admin-left1 {
+  min-height: 1038px !important;
+}
+
+#admin-detail, #add-admin {
+  padding: 0;
+}
+
+.admin-detail-left {
+  background: #fcfcfc;
+  padding: 50px;
+  margin-bottom: 200px;
+}
+.admin-detail-left p {
+  margin-bottom: 20px;
+}
+
+.admin-right {
+  background: #d7f2ec;
+  min-height: 900px;
+  color: #777;
+}
+
+.admin-right a {
+  color: #777 !important;
+}
+.admin-right a:hover {
+  background: transparent !important;
+}
+
+/*.adminDetail {
+  min-height: 1300px;
+}*/
+
+.navbar-link a:hover {
+  background: transparent !important;
+}
+
+.admin-right h1 {
+  text-align: center;
+  margin: 50px 0 140px 0;
+}
+
+.add-admin-inner {
+  padding-top: 30px;
+}
+.add-admin-inner .input-group {
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+
+.add-admin-form {
+  background: #fff;
+}
+.add-admin-form .form-control {
+  box-shadow: none;
+  border: hidden;
+  border-radius: 0;
+  -webkit-appearance: none !important;
+}
+
+.input-group-addon {
+  border: hidden;
+  background: none;
+}
+
+.my-submit {
+  background: #dc241c;
+  min-height: 50px;
+  padding: 20px;
+}
+.my-submit .center-block {
+  max-width: 60px;
+}
+
+.btn-link {
+  color: #fff;
+}
+
+.admin-history-topleft, .admin-history-topright {
+  background: #fff;
+}
+
+.admin-history-topright {
+  min-height: 190px;
+}
+
+.admin-history-topleft {
+  padding: 20px;
+}
+.admin-history-topleft p {
+  margin-bottom: 20px;
+}
+
+.mw a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.add-admin .table-responsive {
+  background: #fff;
+  margin: 100px auto 50px auto;
+  max-width: 98%;
+}
+
+table .thead {
+  background: #dc241c !important;
+  color: #fff;
+}
+
+.my-bold {
+  font-weight: bold;
+}
+
+.pagination a:link {
+  color: #fff !important;
+}
+
+.pag {
+  margin-bottom: 50px;
+}
+
+/* FOOTER SESSION ================================================== */
+#my-footer {
+  background: #3b5997;
+  color: #fff;
+}
+
+/* ================  Cejowisz  Cejowisz  Cejowisz  Cejowisz ends here ================= */
+
+/*# sourceMappingURL=style.css.map */
+
+.noPadding {
+  padding: 0;
+}
+
+
+.browse-users h3, .browse-users h4, .browse-users p {
+  text-align: center;
+}
